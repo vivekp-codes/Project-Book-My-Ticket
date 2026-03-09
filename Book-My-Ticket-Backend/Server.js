@@ -52,7 +52,7 @@
 const express = require('express');
 const cors = require('cors');
 require('dotenv').config();
-const DB = require('./DataBase');
+const DB = require('./DataBase/Index');
 
 const userRoutes = require('./Routes/UserRoutes');
 const imageRoutes = require('./Routes/ImageRoutes');
