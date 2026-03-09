@@ -24,7 +24,7 @@ export default function AdminEvents() {
 
 
     useEffect(() => {
-        fetch("http://localhost:5000/api/dashboard/stats")
+        fetch("https://project-book-my-ticket-backend.onrender.com/api/dashboard/stats")
             .then((res) => res.json())
             .then((data) => setStats(data))
             .catch((err) => console.error(err));
